@@ -1,4 +1,3 @@
-
 # 풀이 1. 중앙을 중심으로 확장하는 풀이
 def longestPalindrome(s: str) -> str:
     # 팰린드롬 판별 및 투 포인터 확장
@@ -21,3 +20,7 @@ def longestPalindrome(s: str) -> str:
                      key=len)
     return result
 
+
+if __name__ == '__main__':
+    s = 'babad'
+    print(longestPalindrome(s))
