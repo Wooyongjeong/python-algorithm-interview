@@ -1,9 +1,5 @@
 import collections
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from ListNode import ListNode
 
 
 # 풀이 1. 리스트 변환
